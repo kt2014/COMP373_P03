@@ -13,3 +13,9 @@ We used the Bridge pattern to solve the above problem by decoupling the Vegetabl
 ![alt text](https://github.com/ktoromanova/COMP373_P03/blob/master/img/w_bridge.jpg)
 
 Thus, we achieved decoupling the abstraction from its implementation so that the two can vary independently.
+
+## Observer Pattern
+
+For the implementation of Observer Pattern we created a Subject, Observer and Client(Main) class. The Subject have methods attach and detach observers to the client object, so that the observable is now an object which notifies observers about the changes in its state.
+
+In conclusion, the we added the Observer pattern to define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
